@@ -74,4 +74,3 @@ public class Premium {
         this.explanations = explanations;
     }
 }
-

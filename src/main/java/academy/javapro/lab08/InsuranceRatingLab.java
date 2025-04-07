@@ -2,10 +2,10 @@ package academy.javapro.lab08;
 
 public class InsuranceRatingLab {
         public static void main(String[] args) {
-        // Create the rating engine
+        // Creates the rating engine
         InsuranceRatingEngine engine = new InsuranceRatingEngine();
 
-        // Create some sample driver profiles
+        // Creates sample driver profiles
         DriverProfile youngDriver = new DriverProfile(19, 1, "Student", 0, 0,
                                                     "Honda", "Civic", 2020, false, false, false,
                                                     50, 500, 500, false, false);
@@ -22,7 +22,7 @@ public class InsuranceRatingLab {
                                                              "Ford", "Mustang", 2022, false, false, false,
                                                              30, 1000, 1000, false, false);
 
-        // Calculate and display premiums
+        // Calculates / display premiums
         calculateAndDisplayPremium("Young Driver", engine, youngDriver);
         calculateAndDisplayPremium("Experienced Driver", engine, experiencedDriver);
         calculateAndDisplayPremium("Senior with Accident", engine, seniorWithAccident);
